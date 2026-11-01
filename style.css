@@ -217,3 +217,233 @@ footer {
     color: #64748b;
     font-size: 14px;
 }
+
+@media (max-width: 1024px) {
+
+    .h {
+        width: 90%;
+        height: auto;
+        min-height: 550px;
+        padding: 140px 20px 60px;
+        gap: 30px;
+    }
+
+    .h-content {
+        width: 55%;
+    }
+
+    .h h1 {
+        font-size: 60px;
+    }
+
+    .profile-image img {
+        height: 400px;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .section {
+        padding: 80px 30px;
+    }
+
+    .contact-container {
+        gap: 35px;
+    }
+}
+
+
+/* Tablets */
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar {
+        padding: 20px 25px;
+    }
+
+    .logo {
+        font-size: 26px;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+
+    /* Home section */
+    .h {
+        width: 90%;
+        height: auto;
+        padding: 130px 0 60px;
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .h-content {
+        width: 100%;
+    }
+
+    .h h1 {
+        font-size: 50px;
+    }
+
+    .h h2 {
+        font-size: 20px;
+    }
+
+    .profile-image img {
+        height: 350px;
+        max-width: 100%;
+    }
+
+    /* About section */
+    #about {
+        height: auto;
+    }
+
+    .a-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .a-text {
+        max-width: 100%;
+    }
+
+    .a-text p {
+        font-size: 16px;
+    }
+
+    /* Skills */
+    .skills-container {
+        gap: 20px;
+    }
+
+    .s {
+        width: 40%;
+    }
+
+    /* Contact */
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .contact-info h3 {
+        font-size: 26px;
+    }
+
+    .contact-form button {
+        width: 40%;
+    }
+}
+
+
+/* Mobile phones */
+@media (max-width: 480px) {
+
+    /* Navbar */
+    .navbar {
+        padding: 15px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .nav-links {
+        gap: 18px;
+        font-size: 14px;
+    }
+
+    /* Home */
+    .h {
+        width: 90%;
+        padding: 150px 0 40px;
+        gap: 25px;
+    }
+
+    .h h1 {
+        font-size: 38px;
+    }
+
+    .h h2 {
+        font-size: 17px;
+    }
+
+    .profile-image img {
+        height: 260px;
+        max-width: 100%;
+        border-radius: 50%;
+    }
+
+    /* Sections */
+    .section {
+        padding: 60px 20px;
+    }
+
+    .section-title {
+        font-size: 24px;
+        margin-bottom: 35px;
+    }
+
+    /* About */
+    #about {
+        height: auto;
+    }
+
+    .a-content {
+        gap: 20px;
+    }
+
+    .a-text p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    /* Skills */
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .s {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 25px 20px;
+    }
+
+    /* Contact */
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .contact-info h3 {
+        font-size: 24px;
+    }
+
+    .contact-item {
+        gap: 10px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-form button {
+        width: 100%;
+        height: 45px;
+        font-size: 17px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 25px 15px;
+        font-size: 12px;
+    }
+}
